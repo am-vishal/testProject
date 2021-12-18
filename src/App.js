@@ -8,7 +8,7 @@
 // }
 // export default App;
 
-import Closure from "./components/Closure"
+import Closure from "./components/Closure";
 
 // Function expression
 // var App = function () {
@@ -89,7 +89,6 @@ import Closure from "./components/Closure"
 // })
 // export default App
 
-
 //Error Handling 4
 // import Test from "./Test";
 // const App = () => {
@@ -117,7 +116,7 @@ import Closure from "./components/Closure"
 // import Test from "./Test";
 // const App = () => {
 //   return () => (
-//     <div> 
+//     <div>
 //       <Test />
 //     </div>
 //   )
@@ -160,13 +159,10 @@ import Closure from "./components/Closure"
 
 //Closure
 const App = () => {
-
   return (
     <>
       <Closure />
     </>
-  )
-}
-export default App
-
-
+  );
+};
+export default App;
